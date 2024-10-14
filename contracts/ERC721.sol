@@ -13,7 +13,7 @@ contract JHU_ETH_Hackathon is ERC721, ERC721Burnable, Ownable {
         address initialOwner
     ) ERC721("JHU_ETH_Hackathon", "JHU_ETH") Ownable(initialOwner) {}
 
-    function safeMint(address to) public onlyOwner {
+    function safeMint(address to) public {
         uint256 tokenId = _nextTokenId++;
         _safeMint(to, tokenId);
     }

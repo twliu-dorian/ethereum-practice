@@ -2,10 +2,10 @@
 
 ## Smart Contract Info
 
-- contract address: `0x623881d3ED687Ea2115547fD126Ec2353B6ca2F6`
+- contract address: `0xe363CBc196c0a9BB461b96F345F0d17219EC5472`
 - contract owner: `0x27DE3fd75B0540DB22E41038ac692116e0dfea0B`
-- contract creation: `https://sepolia.etherscan.io/address/0x623881d3ED687Ea2115547fD126Ec2353B6ca2F6`
-- first safemint transaction: `https://sepolia.etherscan.io/address/0x623881d3ED687Ea2115547fD126Ec2353B6ca2F6`
+- contract creation: `https://sepolia.etherscan.io/tx/0xa2cddcb67f8e93f7942b77bf89374629bd43f401aeaa8b2845b0be3965639c5d`
+- first safemint transaction: `https://sepolia.etherscan.io/tx/0xd925c960353185c0c102ac8c4beffb5072e12cae8c1204b95041a307f386a78e`
 
 ## Introdcution
 

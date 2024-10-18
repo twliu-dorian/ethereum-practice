@@ -1,0 +1,18 @@
+@startuml
+
+actor       Streamer as st
+participant Frontend as fe
+participant Backend as be
+database    database as db
+participant SmartContract as sc
+
+st -> fe: button: add something to wishlist
+fe -> be: request: post item to wishlist
+be -> db: query: insert item
+db -> be: response: item inserted
+be -> fe: response: item inserted
+fe -> sc: call: create empty wishlist progress
+sc -> fe: response: wishlist updated
+fe -> st: message: item added to wishlist
+
+@enduml

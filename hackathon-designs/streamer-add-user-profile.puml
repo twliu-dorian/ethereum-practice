@@ -1,0 +1,15 @@
+@startuml
+
+actor       Streamer as st
+participant Frontend as fe
+participant Backend as be
+database    database as db
+
+st -> fe: button: add user profile
+fe -> be: request: post user profile data
+be -> db: query: insert user profile
+db -> be: response: profile inserted
+be -> fe: response: profile created
+fe -> st: message: profile successfully created
+
+@enduml

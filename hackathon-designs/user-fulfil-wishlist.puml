@@ -1,0 +1,16 @@
+@startuml
+
+actor       User as ur
+participant Frontend as fe
+participant SmartContract as sc
+
+ur -> fe: button: click connect wallet
+fe -> ur: display: metamask pops up and connects user to wallet
+ur -> fe: button: click on a specific streamer
+fe -> ur: display: show streamer's wishlist
+ur -> fe: button: click on a specific item to donate
+fe -> sc: call: donate some amount to streamer
+sc -> fe: response: donation successful
+fe -> ur: display: donation successful
+
+@enduml

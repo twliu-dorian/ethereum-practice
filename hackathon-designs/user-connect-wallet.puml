@@ -1,0 +1,10 @@
+@startuml
+
+actor       User as ur
+participant Frontend as fe
+
+ur -> fe: button: click connect wallet
+fe -> fe: display: metamask extension pops up and user connects to wallet
+fe -> ur: display: user successfully connects to wallet and user's network
+
+@enduml
